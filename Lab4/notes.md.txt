@@ -1,0 +1,8 @@
+--global configures your Git username and email globally across your entire user profile on your computer. If you left it out (running a local config), the setting would apply only to the specific repository you are currently inside, and would throw an error if you weren't inside a Git repository.
+The hidden .git folder appeared. Inside it are internal Git configuration files, objects, refs, and logs that Git uses to track your version history.
+.ven/ .venv/ README.md week02/ -git offered to track these files, i did not write .venv ones/
+The .venv/ folder disappeared from the untracked files list because .gitignore successfully told Git to ignore it.
+It should be committed. You want to share your .gitignore file with anyone else working on the repository so their environment automatically ignores the same local virtual environments and junk files.
+It moved from "Untracked files" to "Changes to be committed" (after running git add). In the three-places model, it moved from the Working Directory into the Staging Area (Index).
+Lab work so far,4 files changed, 150 insertions(+)
+They are called the Short Commit Hash (or Abbreviated Commit ID). They act as a unique cryptographic fingerprint to identify that specific snapshot in your project's history.
