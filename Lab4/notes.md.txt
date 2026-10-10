@@ -6,3 +6,9 @@ It should be committed. You want to share your .gitignore file with anyone else 
 It moved from "Untracked files" to "Changes to be committed" (after running git add). In the three-places model, it moved from the Working Directory into the Staging Area (Index).
 Lab work so far,4 files changed, 150 insertions(+)
 They are called the Short Commit Hash (or Abbreviated Commit ID). They act as a unique cryptographic fingerprint to identify that specific snapshot in your project's history.
+1. Edit 2. Stage (`git add`) 3. Commit (`git commit`) 4. Push (`git push`
+Placed at the project root to serve as the front-page documentation and guide.
+It securely saves an OAuth access token locally so GitHub authenticates automatically.
+`README.md`; GitHub automatically displays root-level markdown files as the homepage.
+It uploads and synchronizes your local commits and version history to the remote repository.
+A private repository securely backs up and restricts cloud code access, while no repository means code exists only locally.
